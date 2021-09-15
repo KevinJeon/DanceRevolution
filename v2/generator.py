@@ -5,7 +5,7 @@
 """ This module will handle the pose generation. """
 import torch
 import torch.nn as nn
-from model import Encoder, Decoder, Model, get_subsequent_mask
+from v2.model import Encoder, Decoder, Model, get_subsequent_mask
 import numpy as np
 np.set_printoptions(threshold=np.inf)
 

@@ -6,8 +6,8 @@
 import numpy as np
 import torch
 import torch.nn as nn
-from utils.pose import BOS_POSE
-from layers import MultiHeadAttention, PositionwiseFeedForward
+from v2.utils.pose import BOS_POSE
+from v2.layers import MultiHeadAttention, PositionwiseFeedForward
 
 
 def get_non_pad_mask(seq):
